@@ -1,0 +1,4 @@
+{
+  "type": "array",
+  "items": {"$ref": "file:schemas/post_schema.json"}
+}

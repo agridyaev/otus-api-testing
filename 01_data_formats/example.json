@@ -1,0 +1,14 @@
+[
+	{
+		"country": "Turkey",	
+		"name": "Middle East Technical University",
+		"alpha_two_code": "TR",
+		"web_pages": ["http://www.metu.edu.tr/"]
+	},
+	{
+		"country": "Turkey",
+		"name": "Sabanci University",
+		"alpha_two_code": "TR",
+		"web_pages": ["http://www.sabanciuniv.edu.tr/", "http://www.sabanciuniv.edu/"]
+	}
+]

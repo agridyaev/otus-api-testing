@@ -1,4 +1,5 @@
 {
   "type": "array",
-  "items": {"$ref": "file:schemas/post_schema.json"}
+  "items": {"$ref": "file:schemas/post_schema.json"},
+  "additionalProperties": false
 }

@@ -6,5 +6,6 @@
       "title": {"type": "string"},
       "body": {"type": "string"}
   },
-  "required": ["userId", "id", "title", "body"]
+  "required": ["userId", "id", "title", "body"],
+  "additionalProperties": false
 }

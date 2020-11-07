@@ -12,5 +12,6 @@
     }
   },
   "type": "array",
-  "items": {"$ref": "#/definitions/post"}
+  "items": {"$ref": "#/definitions/post"},
+  "additionalProperties": false
 }

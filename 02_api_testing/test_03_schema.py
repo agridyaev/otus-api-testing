@@ -1,5 +1,4 @@
 import json
-import pytest
 from jsonschema import validate
 
 
@@ -14,10 +13,6 @@ def test_get_post(session, base_url):
     assert_valid_schema(res.json(), 'schemas/post_schema.json')
 
 
-@pytest.mark.parametrize('schema', [
-    'schemas/posts_schema.json',
-    'schemas/posts_schema_file.json'
-])
-def test_get_posts(session, base_url, schema):
+def test_get_posts(session, base_url):
     res = session.get(url=base_url)
-    assert_valid_schema(res.json(), schema)
+    assert_valid_schema(res.json(), 'schemas/posts_schema.json')

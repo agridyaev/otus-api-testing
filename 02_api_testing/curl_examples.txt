@@ -1,5 +1,4 @@
 https://jsonplaceholder.typicode.com/
-https://jsonplaceholder.typicode.com/guide/
 
 curl -X GET 'https://jsonplaceholder.typicode.com/posts/1'
 curl -X POST 'https://jsonplaceholder.typicode.com/posts/' -d '{"title":"foo", "body":"bar", "userId": "1"}' -H "Content-Type: application/json" -H "Charset: UTF-8"
